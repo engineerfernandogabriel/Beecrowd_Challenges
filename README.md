@@ -1,4 +1,3 @@
 # Beecrowd Challenges Multiple Languages
 
-## *Java
-## *Javascript
+## *Java *Javascript
