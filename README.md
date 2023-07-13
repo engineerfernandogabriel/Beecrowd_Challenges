@@ -1,3 +1,3 @@
-# Beecrowd Challenges Multiple Languages
+# Beecrowd Challenges Multi-Language Solutions
 
-## * Java * Javascript
+* Java * Javascript
