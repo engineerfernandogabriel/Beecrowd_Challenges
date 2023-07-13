@@ -1,3 +1,5 @@
 # Beecrowd Challenges Multi-Language Solutions
 
-* Java * Javascript
+## - Java;
+## - Javascript;
+## - Python.
