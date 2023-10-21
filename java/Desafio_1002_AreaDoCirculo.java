@@ -22,7 +22,7 @@ public class Desafio_1002_AreaDoCirculo {
 
         double raio = scan.nextDouble();
 
-        double area = (raio * raio) * 3.14159;
+        double area = Math.pow(raio, 2) * 3.14159;
 
         scan.close();
 
