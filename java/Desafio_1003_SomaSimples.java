@@ -25,6 +25,8 @@ public class Desafio_1003_SomaSimples {
 
         int soma = valueA + valueB;
 
+        scan.close();
+
         System.out.printf("SOMA = %d\n", soma);
     }    
 }

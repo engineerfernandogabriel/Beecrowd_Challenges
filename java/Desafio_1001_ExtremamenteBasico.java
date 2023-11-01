@@ -24,6 +24,8 @@ public class Desafio_1001_ExtremamenteBasico{
         int valueB = scan.nextInt();
 
         int X = valueA + valueB;
+
+        scan.close();
         
         System.out.printf("X = %d\n", X);
     }
