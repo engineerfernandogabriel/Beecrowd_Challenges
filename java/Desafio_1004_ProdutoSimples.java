@@ -5,15 +5,16 @@
 ENTRADA
  O arquivo de entrada contém 2 valores inteiros.
 
-SAÍDA
+SAíDA
  Imprima a mensagem "PROD" e a variável PROD conforme exemplo abaixo, com um espaço em branco antes e depois da igualdade. 
- Não esqueça de imprimir o fim de linha após o produto, caso contrário seu programa apresentará a mensagem: “Presentation Error”.
+  Não esqueça de imprimir o fim de linha após o resultado, caso contrário, você receberá "Presentation Error".
  */
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Desafio_1004_ProdutoSimples {
-    public static void main(String[] args){
+    public static void main(String[] args) throws IOException{
         Scanner scan = new Scanner(System.in);
 
         int valueA = scan.nextInt();
