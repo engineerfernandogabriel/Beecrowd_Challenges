@@ -6,7 +6,7 @@
 ENTRADA
  O arquivo de entrada contém 2 valores com uma casa decimal cada um.
 
-SAÍDA
+SAíDA
  Imprima a mensagem "MEDIA" e a média do aluno conforme exemplo abaixo, com 5 dígitos após o ponto decimal e com um espaço 
 em branco antes e depois da igualdade. 
  Utilize variáveis de dupla precisão (double) e como todos os problemas, não esqueça de imprimir o fim de linha após o 
