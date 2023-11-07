@@ -16,8 +16,8 @@ SAíDA
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Desafio_1001_ExtremamenteBasico{
-    public static void main (String[] args) throws IOException{
+public class Desafio_1001_ExtremamenteBasico {
+    public static void main (String[] args) throws IOException {
         Scanner scan = new Scanner(System.in);
 
         int valueA = scan.nextInt();
