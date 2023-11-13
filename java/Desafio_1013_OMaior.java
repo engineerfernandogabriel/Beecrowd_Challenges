@@ -27,12 +27,12 @@ public class Desafio_1013_OMaior {
 
         int maior = (valueA + valueB + Math.abs(valueA - valueB)) / 2;
 
-        if(maior > valueC) {
-            System.out.printf("%d eh o maior\n", maior);
-        } else {
-            System.out.printf("%d eh o maior\n", valueC);
+        if(maior < valueC){
+            maior = valueC;
         }
 
         scan.close();
+
+        System.out.printf("%d eh o maior\n", maior);
     }
  }
