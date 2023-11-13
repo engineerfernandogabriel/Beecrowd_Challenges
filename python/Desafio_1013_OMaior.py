@@ -13,3 +13,14 @@ ENTRADA
 SAíDA
  Imprima o maior dos três valores seguido por um espaço e a mensagem "eh o maior".
 '''
+
+valores = list(map(int, input().split()))
+
+valueA, valueB, valueC = valores
+
+maior = (valueA + valueB + abs(valueA - valueB)) / 2
+
+if maior < valueC:
+    maior = valueC
+
+print('%d eh o maior' %maior)
