@@ -13,8 +13,8 @@ SAíDA
 '''
 import math
 
-linha1 = list(map(float, input().slpit()))
-linha2 = list(map(float, input().slpit()))
+linha1 = list(map(float, input().split()))
+linha2 = list(map(float, input().split()))
 
 x1, y1 = linha1
 x2, y2 = linha2
