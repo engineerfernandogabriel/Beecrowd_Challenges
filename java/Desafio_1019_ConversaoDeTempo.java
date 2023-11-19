@@ -20,7 +20,7 @@ public class Desafio_1019_ConversaoDeTempo {
 
         scan.close();
 
-        int hora = valorTempo / 3600;
+        int horas = valorTempo / 3600;
 
         int segundosRestantes = valorTempo % 3600;
         int minutos = segundosRestantes / 60;
@@ -28,6 +28,6 @@ public class Desafio_1019_ConversaoDeTempo {
         segundosRestantes = segundosRestantes % 60;
         int segundos = segundosRestantes;
 
-        System.out.printf("%d:%d:%d\n", hora, minutos, segundos);
+        System.out.printf("%d:%d:%d\n", horas, minutos, segundos);
     }
 }
