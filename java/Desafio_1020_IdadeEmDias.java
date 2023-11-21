@@ -23,6 +23,14 @@ public class Desafio_1020_IdadeEmDias {
 
         scan.close();
 
+        int ano = idadeDias / 365;
+
+        int diasRestantes = idadeDias % 365;
+        int mes = diasRestantes / 30;
+
+        diasRestantes = diasRestantes % 30;
+        int dia = diasRestantes;
+
         System.out.printf("%d ano()\n", ano);
         System.out.printf("%d mes(es)\n", mes);
         System.out.printf("%d dia(s)\n", dia);
