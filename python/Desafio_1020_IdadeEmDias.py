@@ -19,7 +19,7 @@ ano = idadeDias // 365
 diasRestantes = idadeDias % 365
 mes = diasRestantes // 30
 
-diasRestantes = diasRestantes & 30
+diasRestantes = diasRestantes % 30
 dia = diasRestantes
 
 print('%d ano(s)' %ano)
