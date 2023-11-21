@@ -31,7 +31,7 @@ public class Desafio_1020_IdadeEmDias {
         diasRestantes = diasRestantes % 30;
         int dia = diasRestantes;
 
-        System.out.printf("%d ano()\n", ano);
+        System.out.printf("%d ano(s)\n", ano);
         System.out.printf("%d mes(es)\n", mes);
         System.out.printf("%d dia(s)\n", dia);
     }
