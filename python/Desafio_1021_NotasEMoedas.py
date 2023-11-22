@@ -69,4 +69,3 @@ print('%d moeda(s) de R$ 0.25' %moedas25)
 print('%d moeda(s) de R$ 0.10' %moedas10)
 print('%d moeda(s) de R$ 0.05' %moedas5)
 print('%d moeda(s) de R$ 0.01' %moedas1)
-
