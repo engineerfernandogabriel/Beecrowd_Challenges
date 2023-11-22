@@ -49,7 +49,6 @@ public class Desafio_1021_NotasEMoedas {
         restanteNotas = restanteNotas % 2;
         int moedas1r = restanteNotas;
 
-        //MOEDAS
         int moedas50 = moedas / 50;
 
         int restanteMoedas = moedas % 50;
