@@ -28,13 +28,13 @@ public class Desafio_1037_Intervalo {
     if (value >= 0 & value <= 25) {
         System.out.printf("Intervalo [0,25]\n");
     } else if (value  > 25 & value <= 50) {
-        System.out.printf("Intervalo (25,50]");
+        System.out.printf("Intervalo (25,50]\n");
     } else if (value > 50 & value <= 75) {
-        System.out.printf("Intervalo (50,75]");
+        System.out.printf("Intervalo (50,75]\n");
     } else if (value > 75 & value <=100) {
-        System.out.printf("Intervalo (75,100]");
+        System.out.printf("Intervalo (75,100]\n");
     } else {
-        System.out.printf("Fora de intervalo");
+        System.out.printf("Fora de intervalo\n");
     }
    } 
 }
