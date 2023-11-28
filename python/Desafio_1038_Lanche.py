@@ -2,7 +2,7 @@
  Com base na tabela abaixo, escreva um programa que leia o código de um item e a quantidade deste item. 
  A seguir, calcule e mostre o valor da conta a pagar.
 
- CODIGO       ESPECIFICACAO         PREÇO
+ CODIGO        ESPECIFICACAO        PREÇO
    01         Cachorro-Quente       R$4,00
    02         X-salada              R$4,50
    03         X-bacon               R$5,00
@@ -30,5 +30,7 @@ elif code == 4 :
     total = 2.00 * quantity
 elif code == 5 :
     total = 1.50 * quantity
-
+else:
+    total = 0.00
+    
 print('Total: R$ %.2f' %total)
