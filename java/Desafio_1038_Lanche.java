@@ -49,6 +49,9 @@ public class Desafio_1038_Lanche {
                 total = (float) 1.50 * quantity;
                 System.out.printf("Total: R$ %.2f\n", total);
                 break;
+            default:
+                System.out.println("codigo invalido");
+                break;
         }
    }    
 }
