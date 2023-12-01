@@ -45,6 +45,6 @@ else :
     if (mediaFinal >= 5) :
         print('Aluno aprovado.')
         print('Media final: %.1f' %mediaFinal)
-    elif :
+    else :
         print('Aluno reprovado.')
         print('Media final: %.1f' %mediaFinal)
