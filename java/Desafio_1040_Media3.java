@@ -34,7 +34,7 @@ public class Desafio_1040_Media3 {
         double n3 = scan.nextDouble();
         double n4 = scan.nextDouble();
         
-        double media = ((n1 * 2) + (n2 * 3) + (n3 * 4) + (n4 * 1)) / 10;
+        double media = ((n1 * 2.0) + (n2 * 3.0) + (n3 * 4.0) + (n4 * 1.0)) / 10.0;
 
         if (media >= 7){
             System.out.printf("Media: %.1f\n", media);
@@ -46,16 +46,14 @@ public class Desafio_1040_Media3 {
             double notaExame = scan.nextDouble();
             double mediaFinal = (media + notaExame) / 2;
 
+            System.out.printf("Media: %.1f\n", media);
+            System.out.printf("Aluno em exame.\n");
+            System.out.printf("Nota do exame: %.1f\n", notaExame);
+
             if (mediaFinal >= 5) {
-                System.out.printf("Media: %.1f\n", media);
-                System.out.printf("Aluno em exame.\n");
-                System.out.printf("Nota do exame: %.1f\n", notaExame);
                 System.out.printf("Aluno aprovado.\n");
                 System.out.printf("Media final: %.1f\n", mediaFinal);
             }else {
-                System.out.printf("Media: %.1f\n", media);
-                System.out.printf("Aluno em exame.\n");
-                System.out.printf("Nota do exame: %.1f\n", notaExame);
                 System.out.printf("Aluno reprovado.\n");
                 System.out.printf("Media final: %.1f\n", mediaFinal); 
             }
