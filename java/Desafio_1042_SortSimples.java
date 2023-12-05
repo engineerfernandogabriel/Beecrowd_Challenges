@@ -22,9 +22,9 @@ public class Desafio_1042_SortSimples {
 
         scan.close();
 
-        int maior = valueA;
-        int meio = valueB;
-        int menor = valueC;
+        int maior = 0;
+        int meio = 0;
+        int menor = 0;
 
         if (valueA < valueB & valueA < valueC) { 
             menor = valueA;
@@ -34,7 +34,7 @@ public class Desafio_1042_SortSimples {
                 maior = valueC;
             } else {
                 meio = valueC;
-                menor = valueB;
+                maior = valueB;
             }
         } else if (valueB < valueC) {
             menor = valueB;
@@ -44,7 +44,7 @@ public class Desafio_1042_SortSimples {
                 maior = valueC;
             } else {
                 meio = valueC;
-                menor = valueA;
+                maior = valueA;
             }
         } else {
             menor = valueC;
@@ -54,7 +54,7 @@ public class Desafio_1042_SortSimples {
                 maior = valueB;
             } else {
                 meio = valueB;
-                menor = valueA;
+                maior = valueA;
             }
         }
         
