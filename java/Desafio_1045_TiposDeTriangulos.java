@@ -79,7 +79,7 @@ public class Desafio_1045_TiposDeTriangulos {
         } 
         
         if (Math.pow(maior, 2) < Math.pow(meio, 2) + Math.pow(menor, 2)) {
-            System.out.printf("TRAUNGULO ACUTANGULO\n");
+            System.out.printf("TRIANGULO ACUTANGULO\n");
         } 
         
         if (maior == meio & maior == menor) {
