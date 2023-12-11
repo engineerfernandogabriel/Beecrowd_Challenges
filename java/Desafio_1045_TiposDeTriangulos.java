@@ -68,26 +68,26 @@ public class Desafio_1045_TiposDeTriangulos {
 
         if (maior >= (meio + menor)) {
             System.out.printf("NAO FORMA TRIANGULO\n");
-        }
-        
-        if (Math.pow(maior, 2) == Math.pow(meio, 2) + Math.pow(menor, 2)) {
-            System.out.printf("TRIANGULO RETANGULO\n");
-        } 
-        
-        if (Math.pow(maior, 2) > Math.pow(meio, 2) + Math.pow(menor, 2)) {
-            System.out.printf("TRIANGULO OBTUSANGULO\n");
-        } 
-        
-        if (Math.pow(maior, 2) < Math.pow(meio, 2) + Math.pow(menor, 2)) {
-            System.out.printf("TRIANGULO ACUTANGULO\n");
-        } 
-        
-        if (maior == meio & maior == menor) {
-            System.out.printf("TRIANGULO EQUILATERO\n");
-        } 
-        
-        if (maior == meio | maior == menor | meio == menor) {
-            System.out.printf("TRIANGULO ISOSCELES\n");
+        } else {
+            if (Math.pow(maior, 2) == Math.pow(meio, 2) + Math.pow(menor, 2)) {
+                System.out.printf("TRIANGULO RETANGULO\n");
+            } 
+            
+            if (Math.pow(maior, 2) > Math.pow(meio, 2) + Math.pow(menor, 2)) {
+                System.out.printf("TRIANGULO OBTUSANGULO\n");
+            } 
+            
+            if (Math.pow(maior, 2) < Math.pow(meio, 2) + Math.pow(menor, 2)) {
+                System.out.printf("TRIANGULO ACUTANGULO\n");
+            } 
+            
+            if (maior == meio & maior == menor) {
+                System.out.printf("TRIANGULO EQUILATERO\n");
+            } 
+            
+            if (maior == meio | maior == menor | meio == menor) {
+                System.out.printf("TRIANGULO ISOSCELES\n");
+            }
         }
     }    
 }
