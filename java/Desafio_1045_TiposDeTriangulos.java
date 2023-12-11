@@ -34,7 +34,7 @@ public class Desafio_1045_TiposDeTriangulos {
         float menor = 0;
 
 
-        if (valueA > valueB & valueA > valueC) {
+        if (valueA > valueB && valueA > valueC) {
             maior = valueA;
 
             if (valueB > valueC) {
@@ -44,7 +44,7 @@ public class Desafio_1045_TiposDeTriangulos {
                 meio = valueC;
                 menor = valueB;
             }
-        } else if (valueB > valueA & valueB > valueC) {
+        } else if (valueB > valueA && valueB > valueC) {
             maior = valueB;
 
             if (valueA > valueC) {
@@ -81,11 +81,9 @@ public class Desafio_1045_TiposDeTriangulos {
                 System.out.printf("TRIANGULO ACUTANGULO\n");
             } 
             
-            if (maior == meio & maior == menor) {
+            if (maior == meio && maior == menor) {
                 System.out.printf("TRIANGULO EQUILATERO\n");
-            } 
-            
-            if (maior == meio | maior == menor | meio == menor) {
+            } else if (maior == meio || maior == menor || meio == menor) {
                 System.out.printf("TRIANGULO ISOSCELES\n");
             }
         }
