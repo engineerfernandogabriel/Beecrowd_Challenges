@@ -16,10 +16,11 @@ minutoInicial = minutoInicial  + (horaInicial * 60)
 minutoFinal = minutoFinal + (horaFinal * 60)
 
 duracao = minutoFinal - minutoInicial
-if duracao <=0:
-    duracao = duracao + (24*60)
 
-duracaoHoras = duracao//60
-duracaoMinutos = duracao%60
+if (duracao <= 0):
+    duracao = duracao + (24 * 60)
+
+duracaoHoras = duracao // 60
+duracaoMinutos = duracao % 60
 
 print('O JOGO DUROU %d HORA(S) E %d MINUTO(S)' %(duracaoHoras, duracaoMinutos))
