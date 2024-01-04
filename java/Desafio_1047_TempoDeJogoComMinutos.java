@@ -7,7 +7,7 @@ ENTRADA
  Quatro números inteiros representando a hora de início e fim do jogo.
 
 SAíDA
- Mostre a seguinte mensagem: “O JOGO DUROU XXX HORA(S) E YYY MINUTO(S)” .
+ Mostre a seguinte mensagem: “O JOGO DUROU XXX HORA(S) E YYY MINUTO(S)”.
  */
 
 import java.io.IOException;
@@ -24,27 +24,17 @@ public class Desafio_1047_TempoDeJogoComMinutos {
 
         scan.close();
 
-        int duracaoHoras = 24;
-        int duracaoMinutos = 0;
+        minutoInicial = minutoInicial + (horaInicial * 60);
+        minutoFinal = minutoFinal + (horaFinal * 60);
 
-        if(horaInicial != horaFinal && minutoInicial != minutoFinal){
-           
-            if (horaInicial <= horaFinal) {
-                duracaoHoras = horaFinal - horaInicial;
-            } else {
-                duracaoHoras = (24 - horaInicial) + horaFinal;
-            }
+        int duracaoTotal = minutoFinal - minutoInicial;
 
-            if (minutoInicial <= minutoFinal) {
-                duracaoMinutos = minutoFinal - minutoInicial;
-            } else {
-                duracaoMinutos = (60 - minutoInicial) + minutoFinal;
-
-                if(duracaoHoras > 0) {
-                    duracaoHoras -= 1;
-                }
-            }
+        if (duracaoTotal <= 0 ) {
+            duracaoTotal = duracaoTotal + (24 * 60);
         }
+
+        int duracaoHoras = duracaoTotal / 60;
+        int duracaoMinutos = duracaoTotal % 60;
 
         System.out.printf("O JOGO DUROU %d HORA(S) E %d MINUTO(S)\n", duracaoHoras, duracaoMinutos);
     }
