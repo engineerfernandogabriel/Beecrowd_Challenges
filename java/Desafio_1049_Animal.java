@@ -20,7 +20,6 @@ ENTRADA
 
 SAíDa
  Imprima o nome do animal correspondente à entrada fornecida.
-
  */
 
 import java.io.IOException;
