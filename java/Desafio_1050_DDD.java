@@ -1,5 +1,6 @@
 /*
- Leia um número inteiro que representa um código de DDD para discagem interurbana. Em seguida, informe à qual cidade o DDD pertence, considerando a tabela abaixo:
+ Leia um número inteiro que representa um código de DDD para discagem interurbana. Em seguida, informe à qual cidade o DDD pertence, 
+considerando a tabela abaixo:
 
     DDD         Cidade
      61          Brasilia
@@ -17,7 +18,8 @@ ENTRADA
  A entrada consiste de um único valor inteiro.
 
 SAíDA
- Imprima o nome da cidade correspondente ao DDD existente na entrada. Imprima DDD nao cadastrado caso não existir DDD correspondente ao número digitado.
+ Imprima o nome da cidade correspondente ao DDD existente na entrada. Imprima DDD nao cadastrado caso não existir DDD correspondente 
+ao número digitado.
 */
 
 import java.io.IOException;
