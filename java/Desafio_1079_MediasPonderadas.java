@@ -16,9 +16,21 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class Desafio_1079_MediasPonderadas {
- public static void main(String[] args) throws IOException {
-    Scanner scan = new Scanner(System.in);
+    public static void main(String[] args) throws IOException {
+        Scanner scan = new Scanner(System.in);
 
-    scan.close();
- }   
+        int n = scan.nextInt();
+        
+        for (int i = 0; i < n; i++) {
+            double value1 = scan.nextDouble();
+            double value2 = scan.nextDouble();
+            double value3 = scan.nextDouble();
+
+            double media = ((value1 * 2) + (value2 * 3) + (value3 * 5)) / 10;
+
+            System.out.printf("%.1f\n",media);
+
+        }
+        scan.close();
+    }   
 }
