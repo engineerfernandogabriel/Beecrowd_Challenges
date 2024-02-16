@@ -19,11 +19,13 @@ import java.io.IOException;
 public class Desafio_1095_SequenciaIJ1 {
     public static void main(String[] args) throws IOException {
         int i = 1;
+        int j = 60;
 
-        for(int j = 60; j >= 0 ; j -= 5) {
-            System.out.printf("I=%d J=%d\n", i, j);
+        while(j >=0) {
+            System.out.printf("I=%d J=%d\n", i,j);
 
             i += 3;
+            j -= 5;
         }
     }
  }
