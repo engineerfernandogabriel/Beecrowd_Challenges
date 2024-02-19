@@ -21,7 +21,7 @@ SAíDA
 
 import java.io.IOException;
 
-public class Desaafio_1097_SequenciaIJ3 {
+public class Desafio_1097_SequenciaIJ3 {
     public static void main(String[] args) throws IOException {
         
         int n = 7;
