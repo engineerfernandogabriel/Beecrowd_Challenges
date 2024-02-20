@@ -1,6 +1,5 @@
 /*
  Você deve fazer um programa que apresente a sequencia conforme o exemplo abaixo.
-
  	
     I=0 J=1
     I=0 J=2
