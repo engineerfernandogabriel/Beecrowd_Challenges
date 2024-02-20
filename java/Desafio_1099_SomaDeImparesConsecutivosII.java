@@ -7,7 +7,7 @@ ENTRADA
  A primeira linha de entrada é um inteiro N que é a quantidade de casos de teste que vem a seguir. 
  Cada caso de teste consiste em uma linha contendo dois inteiros X e Y.
 
-SAíDa
+SAíDA
  Imprima a soma de todos valores ímpares entre X e Y.
  */
 
