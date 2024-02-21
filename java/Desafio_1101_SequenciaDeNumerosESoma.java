@@ -24,9 +24,7 @@ public class Desafio_1101_SequenciaDeNumerosESoma {
             int x = scan.nextInt();
             int y = scan.nextInt();
 
-            if (x <= 0 || y <= 0 ){
-                condition = false;
-            } else {
+            if (x > 0 && y > 0 ){
                 int sum  = 0;
 
                 if (x > y){
@@ -41,6 +39,8 @@ public class Desafio_1101_SequenciaDeNumerosESoma {
                 }
 
                 System.out.printf("Sum=%d\n", sum);
+            } else {
+                condition = false;
             }
         }
 
