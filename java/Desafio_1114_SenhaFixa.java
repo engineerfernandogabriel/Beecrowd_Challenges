@@ -23,7 +23,11 @@ public class Desafio_1114_SenhaFixa {
         do{
             passwordKey = scan.nextInt();
 
-            System.out.println((passwordKey == PASSWORD) ? "Acesso Permitido": "Senha Invalida");
+            if(passwordKey == PASSWORD){
+                System.out.println("Acesso Permitido");
+            } else {
+                System.out.println("Senha Invalida");
+            }
         
         }while(passwordKey != PASSWORD);
 
