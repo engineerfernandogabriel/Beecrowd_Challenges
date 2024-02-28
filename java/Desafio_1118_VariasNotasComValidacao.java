@@ -35,11 +35,12 @@ public class Desafio_1118_VariasNotasComValidacao {
     public static void main(String[] args) throws IOException {
         Scanner scan = new Scanner(System.in);
 
-        double sum = 0;
-        int count = 0;
         int calculate = 1;
 
         while(calculate == 1){
+            double sum = 0;
+            int count = 0;
+
             while(count < 2) {
                 double value = scan.nextDouble();
 
@@ -50,15 +51,22 @@ public class Desafio_1118_VariasNotasComValidacao {
                     System.out.println("nota invalida");
                 }
 
-                double media = sum / 2;
-
-                System.out.printf("media = %.2f\n", media);
             }
 
-            while(calculate < 1 || calculate > 2){
+            double media = sum / 2;
+
+            System.out.printf("media = %.2f\n", media);
+
+            int n = 0;
+
+            while(n < 1 || n > 2){
                 System.out.println("novo calculo (1-sim 2-nao)");
 
-                calculate = scan.nextInt();
+                n = scan.nextInt();
+
+                if (n == 2) {
+                    calculate = 2;
+                }
             }
         }
 
