@@ -62,9 +62,9 @@ public class Desafio_1131_Grenais {
         }
 
         if(inter > gremio){
-            winner = "Inter";
+            winner = "Inter venceu mais";
         } else if(inter < gremio){
-            winner = "Gremio";
+            winner = "Gremio venceu mais";
         } else {
             winner = "Nao houve vencedor";
         }
@@ -73,7 +73,7 @@ public class Desafio_1131_Grenais {
         System.out.printf("Inter:%d\n", inter);
         System.out.printf("Gremio:%d\n", gremio);
         System.out.printf("Empates:%d\n", draws);
-        System.out.printf("%s venceu mais\n", winner);
+        System.out.printf("%s\n", winner);
 
         scan.close();
     }
