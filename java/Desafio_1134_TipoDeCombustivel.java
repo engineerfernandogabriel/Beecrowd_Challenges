@@ -28,12 +28,12 @@ public class Desafio_1134_TipoDeCombustivel {
 
             if (fuelType == 4){
                condition = false;
-            } else if(fuelType == 1){
-               countAlcool ++;
+            } else if(fuelType == 3){
+               countDiesel ++;
             } else if(fuelType == 2){
                countGas ++;
-            } else if (fuelType == 3){
-               countDiesel ++;
+            } else if (fuelType == 1){
+               countAlcool ++;
             }
         }
 
