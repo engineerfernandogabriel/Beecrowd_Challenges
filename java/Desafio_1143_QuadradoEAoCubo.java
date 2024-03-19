@@ -5,7 +5,7 @@
 ENTRADA
  O arquivo de entrada contém um número inteiro positivo N.
 
-SAíDa
+SAíDA
  Imprima a saída conforme o exemplo fornecido.
  */
 
