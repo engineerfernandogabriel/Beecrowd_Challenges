@@ -28,5 +28,7 @@ public class Desafio_1142_PUM {
             count+= 2;
         }
 
+        scan.close();
+
     }
 }
