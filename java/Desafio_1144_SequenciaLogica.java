@@ -19,7 +19,17 @@ public class Desafio_1144_SequenciaLogica {
 
         int n = scan.nextInt();
 
-        
+        for(int i = 1; i <= n; i++){
+            int value2 = i * i;
+            int value3 = value2 * i;
+
+            System.out.printf("%d %d %d\n", i, value2, value3);
+
+            value2 += 1;
+            value3 += 1;
+
+            System.out.printf("%d %d %d\n", i, value2, value3);
+        }
 
         scan.close();
     }    
