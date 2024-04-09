@@ -19,16 +19,21 @@ public class Desafio_1145_SequenciaLogica2 {
 
         int x = scan.nextInt();
         int y = scan.nextInt();
-        int count = 1;
+        int count = 0;
+
+        var result = new StringBuilder();
 
         for(int i = 1; i <= y; i++){
-            if (count < x){ 
-                System.out.printf("%d ", i);
-                count++;
-            } else {
-                System.out.printf("%d\n", i);
-                count = 1;
-            } 
+
+            result.append(i).append(" ");
+            count++;
+
+            if (count == x || i == y) {
+                System.out.println(result.toString().trim());
+                result.setLength(0);
+                count = 0;
+            }
+             
         }
         scan.close();
     }
