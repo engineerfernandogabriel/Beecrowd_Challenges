@@ -29,14 +29,12 @@ public class Desafio_1145_SequenciaLogica2 {
             count++;
 
             if (count == x || i == y) {
-                result.toString().trim();
-                result.append("\n");
+                System.out.println(result.toString().trim());
+                result.setLength(0);
                 count = 0;
             }
+             
         }
-
-        System.out.printf(result.toString().trim());
-
         scan.close();
     }
 }
