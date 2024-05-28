@@ -10,8 +10,6 @@ ENTRADA
 SAíDA
  Para cada número N do arquivo de entrada deve ser impressa uma linha de 1 até N, conforme o exemplo abaixo. 
  Não deve haver espaço em branco após o último valor da linha.
-
-
 */
 
 import java.io.IOException;
@@ -21,23 +19,19 @@ public class Desafio_1146_SequenciasCrescentes {
     public static void main(String[] args) throws IOException{
         var scan = new Scanner(System.in);
 
-        int n = 1;
+        while (true) {
+            int n = scan.nextInt();
 
-        var result = new StringBuilder();
+            if (n == 0) break;
 
-        do {
-            n = scan.nextInt();
-
-            if (n != 0) {
-                for (int i = 1; i <= n; i++) {
-                    result.append(i).append(" ");
-                }
-
-                System.out.println(result.toString().trim());
-                result.setLength(0);
+            var result = new StringBuilder();
+            
+            for (int i = 1; i <= n; i++) {
+                result.append(i).append(" ");
             }
 
-        }while (n != 0);
+            System.out.println(result.toString().trim());
+        }
 
         scan.close();
     }
