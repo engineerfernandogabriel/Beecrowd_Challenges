@@ -28,7 +28,7 @@ public class Desafio_1149_SomandoInteirosConsecutivos {
         }
 
         for(int i = 0; i < N; i++) {
-            sum = A + i;
+            sum += A + i;
         }
 
         System.out.println(sum);
