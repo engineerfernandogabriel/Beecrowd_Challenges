@@ -12,12 +12,16 @@ SAíDA
 '''
 
 sum = 0
+count = 2
 
-A = int(input())
-N = int(input())
+values = list(map(int, input().split()))
 
-while (N <= 0):
-    N = int(input())
+A = values[0]
+N = values[1]
+
+while (N <= 0):  
+    N = values[count]
+    count += 1
 
 for i in range (N):
     sum += A + i
