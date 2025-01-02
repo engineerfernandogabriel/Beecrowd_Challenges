@@ -18,4 +18,4 @@ valueB = int(input())
 
 X = valueA + valueB
 
-print('X = %i' %X)
+print(f"X = {X}")
