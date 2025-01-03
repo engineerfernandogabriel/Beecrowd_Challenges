@@ -15,4 +15,4 @@ valueB = int(input())
 
 produto = valueA * valueB
 
-print('PROD = %i' %produto)
+print(f'PROD = {produto}')

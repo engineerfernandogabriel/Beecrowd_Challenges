@@ -18,4 +18,4 @@ valueB = int(input())
 
 soma = valueA + valueB
 
-print('SOMA = %i' %soma)
+print(f'SOMA = {soma}')
