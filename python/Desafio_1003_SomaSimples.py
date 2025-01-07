@@ -1,3 +1,5 @@
+
+
 '''
  Leia dois valores inteiros, no caso para variáveis A e B. 
  A seguir, calcule a soma entre elas e atribua à variável SOMA. 
@@ -19,3 +21,4 @@ valueB = int(input())
 soma = valueA + valueB
 
 print(f'SOMA = {soma}')
+#print('SOMA = %i' %soma)

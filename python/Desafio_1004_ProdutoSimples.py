@@ -16,3 +16,4 @@ valueB = int(input())
 produto = valueA * valueB
 
 print(f'PROD = {produto}')
+#print('PROD = %i' %produto)

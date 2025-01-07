@@ -18,4 +18,5 @@ valueC = float(input())
 
 media = ((valueA * 2) + (valueB * 3) + (valueC * 5)) / 10
 
-print('MEDIA = %.1f' %media)
+print(f'MEDIA = {media:.1f}')
+#print('MEDIA = %.1f' %media)

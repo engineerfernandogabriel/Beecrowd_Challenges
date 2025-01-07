@@ -17,4 +17,5 @@ D = int(input())
 
 diferenca = (A * B - C * D)
 
-print('DIFERENCA = %i' %diferenca)
+print(f'DIFERENCA = {diferenca}')
+#print('DIFERENCA = %i' %diferenca)

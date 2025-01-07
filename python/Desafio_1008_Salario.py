@@ -18,5 +18,8 @@ valorHora = float(input())
 
 salario = horasTrabalhadas * valorHora
 
-print('NUMBER = %i' %numero)
-print('SALARY = U$ %.2f' %salario)
+print(f'NUMBER = {numero}')
+#print('NUMBER = %i' %numero)
+
+print(f'SALARY = U$ {salario:.2f}')
+#print('SALARY = U$ %.2f' %salario)
