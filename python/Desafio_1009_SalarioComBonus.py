@@ -17,4 +17,5 @@ vendasTotal = float(input())
 
 salarioComBonus = salarioFixo + (vendasTotal * 0.15)
 
-print('TOTAL = R$ %.2f' %salarioComBonus)
+print(f'TOTAL = R$ {salarioComBonus:.2f}')
+#print('TOTAL = R$ %.2f' %salarioComBonus)

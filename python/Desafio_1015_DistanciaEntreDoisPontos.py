@@ -21,4 +21,5 @@ x2, y2 = linha2
 
 distancia = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
 
-print('%.4f' %distancia)
+print(f'{distancia:.4f}')
+#print('%.4f' %distancia)

@@ -23,4 +23,5 @@ maior = (valueA + valueB + abs(valueA - valueB)) / 2
 if maior < valueC:
     maior = valueC
 
-print('%d eh o maior' %maior)
+print(f'{maior} eh o maior')
+#print('%d eh o maior' %maior)

@@ -15,4 +15,5 @@ litros = float(input())
 
 consumo = distancia / litros
 
-print('%.3f km/l' %consumo)
+print(f'{consumo:.3f} km/l')
+#print('%.3f km/l' %consumo)

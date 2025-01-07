@@ -20,4 +20,5 @@ codigoPc2, quantidadePc2, valorPC2 = linha2
 
 valorPagar = (int(quantidadePc1) * float(valorPc1)) + (int(quantidadePc2) * float(valorPC2))
 
-print('VALOR A PAGAR: R$ %.2f' %valorPagar)
+print(f'VALOR A PAGAR: R$ {valorPagar:.2f}')
+#print('VALOR A PAGAR: R$ %.2f' %valorPagar)

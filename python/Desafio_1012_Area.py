@@ -26,8 +26,17 @@ areaTrapezio = ((valueA + valueB) * valueC) / 2
 areaQuadrado = valueB * valueB
 areaRetangulo = valueA * valueB
 
-print('TRIANGULO: %.3f' %areaTriangulo)
-print('CIRCULO: %.3f' %areaCirculo)
-print('TRAPEZIO: %.3f' %areaTrapezio)
-print('QUADRADO: %.3f' %areaQuadrado)
-print('RETANGULO: %.3f' %areaRetangulo)
+print(f'TRIANGULO: {areaTriangulo:.3f}')
+#print('TRIANGULO: %.3f' %areaTriangulo)
+
+print(f'CIRCULO: {areaCirculo:.3f}')
+#print('CIRCULO: %.3f' %areaCirculo)
+
+print(f'TRAPEZIO: {areaTrapezio:.3f}')
+#print('TRAPEZIO: %.3f' %areaTrapezio)
+
+print(f'QUADRADO: {areaQuadrado:.3f}')
+#print('QUADRADO: %.3f' %areaQuadrado)
+
+print(f'RETANGULO: {areaRetangulo:.3f}')
+#print('RETANGULO: %.3f' %areaRetangulo)
