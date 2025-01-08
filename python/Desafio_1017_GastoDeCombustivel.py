@@ -19,4 +19,5 @@ velocidadeMedia = int(input())
 distancia = tempo * velocidadeMedia
 litros = distancia / 12
 
-print('%.3f' %litros)
+print(f'{litros:.3f}')
+#print('%.3f' %litros)

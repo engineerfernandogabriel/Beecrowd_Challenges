@@ -25,5 +25,7 @@ if (valueA <= 0 or delta < 0) :
 else :
     raiz1 = (- valueB + math.sqrt(delta)) / (2 * valueA) 
     raiz2 = (- valueB + math.sqrt(delta)) / (2 * valueA)
-    print('R1 = %.5f' %raiz1)
-    print('R2 = %.5f' %raiz2)
+    print(f'R1 = {raiz1:.5f}')
+    #print('R1 = %.5f' %raiz1)
+    print(f'R2 = {raiz2:.5f}')
+    #print('R2 = %.5f' %raiz2)

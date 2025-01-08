@@ -29,22 +29,22 @@ n1, n2, n3, n4 = notas
 media = ((n1 * 2.0) + (n2 * 3.0) + (n3 * 4.0) + (n4 * 1.0)) / 10.0
 
 if (media >= 7) :
-    print('Media: %.1f' %media)
+    print(f'Media: {media:.1f}')
     print('Aluno aprovado.')
 elif (media < 5) :
-    print('Media: %.1f' %media)
+    print(f'Media: {media:.1f}')
     print('Aluno reprovado.')
 else :
     notaExame = float(input())
     mediaFinal = (media + notaExame) / 2.0
 
-    print('Media: %.1f' %media)
+    print(f'Media: {media:.1f}')
     print('Aluno em exame.')
-    print('Nota do exame: %.1f' %notaExame)
+    print(f'Nota do exame: {notaExame:.1f}')
 
     if (mediaFinal >= 5) :
         print('Aluno aprovado.')
-        print('Media final: %.1f' %mediaFinal)
+        print(f'Media final: {mediaFinal:.1f}')
     else :
         print('Aluno reprovado.')
-        print('Media final: %.1f' %mediaFinal)
+        print(f'Media final: {mediaFinal:.1f}')

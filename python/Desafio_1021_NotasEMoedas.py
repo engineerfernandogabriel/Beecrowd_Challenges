@@ -20,7 +20,6 @@ valor = float(input())
 notas = valor // 1
 moedas = (valor % 1) * 100
 
-
 notas100 = notas // 100
 
 restanteNotas = notas % 100
@@ -56,16 +55,39 @@ restanteMoedas = restanteMoedas % 5
 moedas1 = restanteMoedas
 
 print('NOTAS:')
-print('%d nota(s) de R$ 100.00' %notas100)
-print('%d nota(s) de R$ 50.00' %notas50)
-print('%d nota(s) de R$ 20.00' %notas20)
-print('%d nota(s) de R$ 10.00' %notas10)
-print('%d nota(s) de R$ 5.00' %notas5)
-print('%d nota(s) de R$ 2.00' %notas2)
+print(f'{notas100} nota(s) de R$ 100.00')
+#print('%d nota(s) de R$ 100.00' %notas100)
+
+print(f'{notas50} nota(s) de R$ 50.00')
+#print('%d nota(s) de R$ 50.00' %notas50)
+
+print(f'{notas20} nota(s) de R$ 20.00')
+#print('%d nota(s) de R$ 20.00' %notas20)
+
+print(f'{notas10} nota(s) de R$ 10.00')
+#print('%d nota(s) de R$ 10.00' %notas10)
+
+print(f'{notas5} nota(s) de R$ 5.00')
+#print('%d nota(s) de R$ 5.00' %notas5)
+
+print(f'{notas2} nota(s) de R$ 2.00')
+#print('%d nota(s) de R$ 2.00' %notas2)
+
 print('MOEDAS:')
-print('%d moeda(s) de R$ 1.00' %moedas1r)
-print('%d moeda(s) de R$ 0.50' %moedas50)
-print('%d moeda(s) de R$ 0.25' %moedas25)
-print('%d moeda(s) de R$ 0.10' %moedas10)
-print('%d moeda(s) de R$ 0.05' %moedas5)
-print('%d moeda(s) de R$ 0.01' %moedas1)
+print(f'{moedas1r} moeda(s) de R$ 1.00')
+#print('%d moeda(s) de R$ 1.00' %moedas1r)
+
+print(f'{moedas50} moeda(s) de R$ 0.50')
+#print('%d moeda(s) de R$ 0.50' %moedas50)
+
+print(f'{moedas25} moeda(s) de R$ 0.25')
+#print('%d moeda(s) de R$ 0.25' %moedas25)
+
+print(f'{moedas10} moeda(s) de R$ 0.10')
+#print('%d moeda(s) de R$ 0.10' %moedas10)
+
+print(f'{moedas5} moeda(s) de R$ 0.05')
+#print('%d moeda(s) de R$ 0.05' %moedas5)
+
+print(f'{moedas1} moeda(s) de R$ 0.01')
+#print('%d moeda(s) de R$ 0.01' %moedas1)

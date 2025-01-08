@@ -32,5 +32,6 @@ elif code == 5 :
     total = 1.50 * quantity
 else:
     total = 0.00
-    
-print('Total: R$ %.2f' %total)
+ 
+print(f'TOTAL: R$ {total:.2f}')   
+#print('Total: R$ %.2f' %total)

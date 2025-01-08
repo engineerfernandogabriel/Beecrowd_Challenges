@@ -42,6 +42,6 @@ else:
 
 reajuste = novoSalario - salario
 
-print('Novo salario: %.2f' %novoSalario)
-print('Reajuste ganho: %.2f' %reajuste)
-print('Em percentual: %d %%' %percentual)
+print(f'Novo salario: {novoSalario:.2f}')
+print(f'Reajuste ganho: {reajuste:.2f}')
+print(f'Em percentual: {percentual} %%')

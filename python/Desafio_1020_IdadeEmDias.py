@@ -22,6 +22,11 @@ mes = diasRestantes // 30
 diasRestantes = diasRestantes % 30
 dia = diasRestantes
 
-print('%d ano(s)' %ano)
-print('%d mes(es)' %mes)
-print('%d dia(s)' %dia)
+print(f'{ano} ano(s)')
+#print('%d ano(s)' %ano)
+
+print(f"{mes} mes(es)")
+#print('%d mes(es)' %mes)
+
+print(f'{dia} dia(s)')
+#print('%d dia(s)' %dia)

@@ -45,10 +45,10 @@ else :
         meio = valueB
         maior = valueA
 
-print(menor)
-print(meio)
-print(maior)
+print(f'{menor}')
+print(f'{meio}')
+print(f'{maior}')
 print('')
-print(valueA)
-print(valueB)
-print(valueC)
+print(f'{valueA}')
+print(f'{valueB}')
+print(f'{valueC}')

@@ -23,4 +23,4 @@ if (duracao <= 0):
 duracaoHoras = duracao // 60
 duracaoMinutos = duracao % 60
 
-print('O JOGO DUROU %d HORA(S) E %d MINUTO(S)' %(duracaoHoras, duracaoMinutos))
+print(f'O JOGO DUROU {duracaoHoras} HORA(S) E {duracaoMinutos} MINUTO(S)')

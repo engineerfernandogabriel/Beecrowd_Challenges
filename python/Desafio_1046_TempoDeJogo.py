@@ -22,4 +22,4 @@ if (horaInicial < horaFinal):
 else:
     duracao = (24 - horaInicial) + horaFinal
 
-print('O JOGO DUROU %d HORA(S)' %duracao)
+print(f'O JOGO DUROU {duracao} HORA(S)')

@@ -19,4 +19,5 @@ minutos = resto / 60
 resto = resto % 60
 segundos = resto
 
-print('%d:%d:%d' %(horas, minutos, segundos))
+print(f'{horas}:{minutos}:{segundos}')
+#print('%d:%d:%d' %(horas, minutos, segundos))

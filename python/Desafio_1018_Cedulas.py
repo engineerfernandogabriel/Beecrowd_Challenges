@@ -32,11 +32,25 @@ notas2 = restante / 2
 restante = restante % 2
 notas1 = restante
 
-print(valor)
-print('%d nota(s) de R$ 100,00' %notas100)
-print('%d nota(s) de R$ 50,00' %notas50)
-print('%d nota(s) de R$ 20,00' %notas20)
-print('%d nota(s) de R$ 10,00' %notas10)
-print('%d nota(s) de R$ 5,00' %notas5)
-print('%d nota(s) de R$ 2,00' %notas2)
-print('%d nota(s) de R$ 1,00' %notas1)
+print(f'{valor}')
+
+print(f'{notas100} nota(s) de R$ 100,00')
+#print('%d nota(s) de R$ 100,00' %notas100)
+
+print(f'{notas50} nota(s) de R$ 50,00')
+#print('%d nota(s) de R$ 50,00' %notas50)
+
+print(f'{notas20} nota(s) de R$ 20,00')
+#print('%d nota(s) de R$ 20,00' %notas20)
+
+print(f'{notas10} nota(s) de R$ 10,00')
+#print('%d nota(s) de R$ 10,00' %notas10)
+
+print(f'{notas5} nota(s) de R$ 5,00')
+#print('%d nota(s) de R$ 5,00' %notas5)
+
+print(f'{notas2} nota(s) de R$ 2,00')
+#print('%d nota(s) de R$ 2,00' %notas2)
+
+print(f'{notas1} nota(s) de R$ 1,00')
+#print('%d nota(s) de R$ 1,00' %notas1)
