@@ -25,5 +25,5 @@ for value in values:
 
 media = sum / count
 
-print('%d valores positivos' %count)
-print('%.1f' %media)
+print(f'{count} valores positivos')
+print(f'{media:.1f}')

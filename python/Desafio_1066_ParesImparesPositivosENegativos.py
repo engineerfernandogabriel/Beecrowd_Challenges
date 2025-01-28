@@ -28,7 +28,7 @@ for _ in range(5):
     elif (value < 0):
         negativo += 1
     
-print('%d valor(es) par(es)' %par)
-print('%d valor(es) impar(es)' %impar)
-print('%d valor(es) positivo(s)' %positivo)
-print('%d valor(es) negativo(s)' %negativo)
+print(f'{par} valor(es) par(es)')
+print(f'{impar} valor(es) impar(es)')
+print(f'{positivo} valor(es) positivo(s)')
+print(f'{negativo} valor(es) negativo(s)')

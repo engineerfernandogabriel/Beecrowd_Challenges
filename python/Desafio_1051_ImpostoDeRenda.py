@@ -31,10 +31,10 @@ if (renda < 2000):
     print('Isento')
 elif (renda > 2000 and renda < 3000):
     imposto = (renda - 2000) * 0.08
-    print('R$ %.2f' %imposto)
+    print(f'R$ {imposto:.2f}')
 elif (renda > 3000 and renda < 4500):
     imposto = ((renda - 3000) * 0.18) + (1000 * 0.08)
-    print('R$ %.2f' %imposto)
+    print(f'R$ {imposto:.2f}')
 else:
     imposto = ((renda - 4500) * 0.28) + (1500 * 0.18) + (1000 * 0.08)
-    print('R$ %.2f' %imposto)
+    print(f'R$ {imposto:.2f}')

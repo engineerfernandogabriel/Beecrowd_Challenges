@@ -52,7 +52,7 @@ minuto = tempoRestante / 60
 
 segundo = tempoRestante % 60
 
-print('%d dia(s)' %dia)
-print('%d hora(s)' %hora)
-print('%d minuto(s)' %minuto)
-print('%d segundo(s)' %segundo)
+print(f'{dia} dia(s)')
+print(f'{hora} hora(s)')
+print(f'{minuto} minuto(s)')
+print(f'{segundo} segundo(s)')

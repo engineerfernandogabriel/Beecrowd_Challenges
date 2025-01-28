@@ -16,4 +16,4 @@ for _ in range(5):
     if (value % 2 ==0):
         count += 1
 
-print('%d valores pares' %count)
+print(f'{count} valores pares')

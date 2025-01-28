@@ -20,4 +20,4 @@ for value in values:
     if (value > 0):
         count += 1
 
-print('%s valores positivos' %count)
+print(f'{count} valores positivos')
