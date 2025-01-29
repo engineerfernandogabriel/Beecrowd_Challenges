@@ -22,5 +22,5 @@ for i in range (n):
     else:
         outTotal += 1
 
-print('%d in' %inTotal)
-print('%d out' %outTotal)
+print(f'{inTotal} in')
+print(f'{outTotal} out')

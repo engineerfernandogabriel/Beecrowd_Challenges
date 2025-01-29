@@ -45,10 +45,10 @@ for i in range(n):
     percentR = (totalR / total) * 100
     percentS = (totalS / total) * 100
 
-print('Total: %d cobaias' %total)
-print('Total de coelhos: %d' %totalC)
-print('Total de ratos: %d' %totalR)
-print('Total de sapos: %d' %totalS)
-print('Percentual de coelhos: %.2f %%' %percentC)
-print('Percentual de ratos: %.2f %%' %percentR)
-print('Percentual de sapos: %.2f %%' %percentS)
+print(f'Total: {total} cobaias')
+print(f'Total de coelhos: {totalC}')
+print(f'Total de ratos: {totalR}')
+print(f'Total de sapos: {totalS}')
+print(f'Percentual de coelhos: {percentC:.2f} %%')
+print(f'Percentual de ratos: {percentR:.2f} %%')
+print(f'Percentual de sapos: {percentS:.2f} %%')

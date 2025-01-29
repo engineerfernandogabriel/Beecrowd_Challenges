@@ -19,4 +19,4 @@ for i in range (n):
 
     media = ((value1 * 2) + (value2 * 3) + (value3 * 5)) / 10
 
-    print('%.1f' %media)
+    print(f'{media:.1f}')

@@ -24,13 +24,13 @@ j = float(1)
 
 while(i <= 2):
     if (i == 0 or i == 1 or i > 1.8) :
-        print('I=%.0f J=%.0f' %(i, j))
-        print('I=%.0f J=%.0f' %(i, j + 1))
-        print('I=%.0f J=%.0f' %(i, j + 2))
+        print(f'I={i:.0f} J={j:.0f}')
+        print(f'I={i:.0f} J={j + 1:.0f}')
+        print(f'I={i:.0f} J={j + 2:.0f}')
     else:
-        print('I=%.1f J=%.1f' %(i, j))
-        print('I=%.1f J=%.1f' %(i, j + 1))
-        print('I=%.1f J=%.1f' %(i, j + 2))
+        print(f'I={i:.1f} J={j:.1f}')
+        print(f'I={i:.1f} J={j + 1:.1f}')
+        print(f'I={i:.1f} J={j + 2:.1f}')
 
     i += 0.2
     j += 0.2
