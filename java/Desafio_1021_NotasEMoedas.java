@@ -13,7 +13,7 @@ SAíDA
  Imprima a quantidade mínima de notas e moedas necessárias para trocar o valor inicial, conforme exemplo fornecido.
 
  Obs: Utilize ponto (.) para separar a parte decimal.
-*/
+ */
 
 import java.io.IOException;
 import java.util.Scanner;

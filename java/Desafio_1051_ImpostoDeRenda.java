@@ -2,7 +2,6 @@
  Em um país imaginário denominado Lisarb, todos os habitantes ficam felizes em pagar seus impostos, pois sabem que nele não existem 
 políticos corruptos e os recursos arrecadados são utilizados em benefício da população, sem qualquer desvio. 
  A moeda deste país é o Rombus, cujo símbolo é o R$.
-
  Leia um valor com duas casas decimais, equivalente ao salário de uma pessoa de Lisarb. 
  Em seguida, calcule e mostre o valor que esta pessoa deve pagar de Imposto de Renda, segundo a tabela abaixo.
 
@@ -23,7 +22,7 @@ ENTRADA
 SAíDA
  Imprima o texto "R$" seguido de um espaço e do valor total devido de Imposto de Renda, com duas casas após o ponto. 
  Se o valor de entrada for menor ou igual a 2000, deverá ser impressa a mensagem "Isento".
-*/
+ */
 
 import java.io.IOException;
 import java.util.Scanner;

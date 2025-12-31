@@ -7,7 +7,7 @@ ENTRADA
 
 SAíDA
  Apresente o maior valor lido e a posição de entrada, conforme exemplo abaixo.
-*/
+ */
 
 import java.io.IOException;
 import java.util.Scanner;

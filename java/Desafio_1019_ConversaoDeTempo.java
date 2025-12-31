@@ -7,7 +7,7 @@ ENTRADA
 
 SAíDA
  Imprima o tempo lido no arquivo de entrada (segundos), convertido para horas:minutos:segundos, conforme exemplo fornecido.
-*/
+ */
 
 import java.io.IOException;
 import java.util.Scanner;

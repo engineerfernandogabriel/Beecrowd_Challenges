@@ -5,7 +5,6 @@
  Se esta média for maior ou igual a 7.0, imprima a mensagem "Aluno aprovado.". 
  Se a média calculada for inferior a 5.0, imprima a mensagem "Aluno reprovado.". 
  Se a média calculada for um valor entre 5.0 e 6.9, inclusive estas, o programa deve imprimir a mensagem "Aluno em exame.".
-
  No caso do aluno estar em exame, leia um valor correspondente à nota do exame obtida pelo aluno. 
  Imprima então a mensagem "Nota do exame: " acompanhada pela nota digitada. 
  Recalcule a média (some a pontuação do exame com a média anteriormente calculada e divida por 2). e imprima a mensagem 

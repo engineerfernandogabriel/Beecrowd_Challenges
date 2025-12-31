@@ -8,7 +8,7 @@ ENTRADA
 
 SAíDA
  Imprima a saída conforme o exemplo fornecido.
-*/
+ */
 
 import java.io.IOException;
 import java.util.Scanner;

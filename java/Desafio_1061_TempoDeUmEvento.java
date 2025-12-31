@@ -17,7 +17,7 @@ SAíDA
     Y minuto(s)
     Z segundo(s)
 
-Obs: Considere que o evento do caso de teste para o problema tem duração mínima de 1 minuto.
+ Obs: Considere que o evento do caso de teste para o problema tem duração mínima de 1 minuto.
  */
 
 import java.io.IOException;

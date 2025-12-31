@@ -7,7 +7,7 @@ ENTRADA
 
 SAíDA
  Você deve imprimir a mensagem "Hello World!" e em seguida o final de linha, conforme o exemplo abaixo.
-*/
+ */
 
 public class Desafio_1000_HelloWorld {
     public static void main(String[] args) {

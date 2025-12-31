@@ -20,7 +20,7 @@ ENTRADA
 SAíDA
  Imprima o nome da cidade correspondente ao DDD existente na entrada. Imprima DDD nao cadastrado caso não existir DDD correspondente 
 ao número digitado.
-*/
+ */
 
 import java.io.IOException;
 import java.util.Scanner;
