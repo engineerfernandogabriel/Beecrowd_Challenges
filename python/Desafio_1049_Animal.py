@@ -3,16 +3,16 @@
  Em seguida conclua qual dos animais seguintes foi escolhido, através das três palavras fornecidas.
 
 
-                Vertebrado
-        Ave                 Mamifero
-Carnivoro Onivoro       Onivoro Herbivoro
-Aguia     Pomba         Homem    Vaca
+                    Vertebrado
+            Ave                 Mamifero
+    Carnivoro Onivoro       Onivoro Herbivoro
+    Aguia     Pomba         Homem    Vaca
 
 
-                Invertebrado
-        Inseto                     Anelideo
-Hematofogo Herbivoro         Hematofogo     Onivoro
-  Pulga     Lagarta          Sangessuga    Minhooca
+                    Invertebrado
+            Inseto                     Anelideo
+    Hematofogo Herbivoro         Hematofogo     Onivoro
+    Pulga     Lagarta          Sangessuga    Minhooca
 
 
 ENTRADA
@@ -21,7 +21,6 @@ ENTRADA
 SAíDa
  Imprima o nome do animal correspondente à entrada fornecida.
 '''
-
 
 grupoAnimal = input()
 classeAnimal = input()

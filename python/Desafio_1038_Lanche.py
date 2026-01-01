@@ -2,12 +2,12 @@
  Com base na tabela abaixo, escreva um programa que leia o código de um item e a quantidade deste item. 
  A seguir, calcule e mostre o valor da conta a pagar.
 
- CODIGO        ESPECIFICACAO        PREÇO
-   01         Cachorro-Quente       R$4,00
-   02         X-salada              R$4,50
-   03         X-bacon               R$5,00
-   04         Torrada simples       R$2,00
-   05         Refrigerante          R$1,50
+    CODIGO        ESPECIFICACAO        PREÇO
+    01         Cachorro-Quente       R$4,00
+    02         X-salada              R$4,50
+    03         X-bacon               R$5,00
+    04         Torrada simples       R$2,00
+    05         Refrigerante          R$1,50
 
 ENTRADA
  O arquivo de entrada contém dois valores inteiros correspondentes ao código e à quantidade de um item conforme tabela acima.
