@@ -1,6 +1,6 @@
 <h1 align="center"> Beecrowd Challenges Multi-Language Solutions </h1>
 
-<h3 align="center"> site: <a href="https://www.beecrowd.com.br/judge/pt" target="_blank">beecrowd.com.br</a></h3>
+<h3 align="center"> site: <a href="https://judge.beecrowd.com/pt" target="_blank">beecrowd.com.br</a></h3>
 
 <br>
 <p align="center">
@@ -16,5 +16,5 @@
 ---
 
 <p align="center">
-    🔗 Desenvolvido por <a href="https://www.linkedin.com/in/enginnerfernandogabriel/" target="_blank">Fernando Gabriel (Dev Samurai)</a>
+    🔗 Desenvolvido por <a href="https://www.linkedin.com/in/fernandogabrielengineer/" target="_blank">Fernando Gabriel (Dev Samurai)</a>
 </p>
